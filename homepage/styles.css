@@ -1,0 +1,359 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #eeeef3;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 11px;
+	color: #0f0f1f;
+}
+
+/*** Main dividers ***/
+
+div.errorbox {
+	width: 680px;
+	margin: 10px auto;
+	padding: 10px;
+    background-color: white;
+    border: 1px solid #bbb;
+    text-align: center;
+    -moz-box-shadow: 0 0 5px #b00;
+    -webkit-box-shadow: 0 0 5px #b00;
+    box-shadow: 0 0 5px #b00;
+}
+
+div.standardbox {
+	width: 680px;
+	margin: 10px auto;
+	padding: 10px;
+	border: 1px solid #bbb;
+	background-color: white;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;
+	-moz-box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;
+	-webkit-box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;
+	-khtml-box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;
+}
+
+div.blankbox {
+    width: 702px;
+	margin: 10px auto;
+    padding: 0;
+}
+
+div.navigation {
+    float: right;
+    margin: 5px;
+    font-size: 13px;
+}
+
+div.copyright {
+	width: 480px;
+	margin: 10px auto 20px auto;
+	text-align: center;
+	font-size: 9px;
+	color: #999;
+}
+
+div.quotes {
+    background-image: url('resources/images/refresh.gif');
+    background-repeat: no-repeat;
+    background-position: 99% 50%;
+}
+
+div.login {
+	width: 180px;
+	margin: 180px auto 10px auto;
+	text-align: center;
+}
+
+/*** Common dividers ***/
+
+div.narrow {
+    width: 325px;
+    margin: 0px auto 5px auto;
+}
+
+div.narrower {
+    width: 150px;
+    height: 50px;
+    margin: 5px 9px 0px 9px;
+}
+
+div.contact {
+    width: 313px;
+    height: 130px;
+    margin: 0;
+    padding: 16px;
+}
+
+div.work {
+    margin: 0 0 5px 0;
+}
+
+div.icons {
+    float: left;
+    clear: left;
+    width: 60px;
+    height: 40px;
+    margin-top: 6px;
+    padding: 4px 6px;
+    text-align: center;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	/*box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;
+	-moz-box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;
+	-webkit-box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;
+	-khtml-box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;*/
+}
+
+div.wide {
+    width: 100px;
+    height: 75px;
+    padding: 0;
+    margin: 3px 0px;
+    border-radius: 0;
+}
+
+img.icon {
+    background: white;
+    max-width: 60px;
+    max-height: 40px;
+}
+
+img.narrowicon {
+    float: left;
+    width: 48px;
+    height: 48px;
+}
+
+img.wideicon {
+    width: 100px;
+    height: 75px;
+}
+
+img.blowup {
+    cursor: pointer;
+}
+
+img.me {
+width: 110px;
+border: 1px solid #bbb;
+}
+
+div.text {
+    float: left;
+    width: 238px;
+    padding: 6px 0px 6px 10px;
+    margin-top: 6px;
+}
+
+div.narrowtext {
+    float: left;
+    width: 80px;
+    padding: 4px 0px 4px 10px;
+}
+
+div.widetext {
+    float: left;
+    width: 550px;
+    padding: 6px 0px 6px 10px;
+    margin-top: 5px;
+}
+
+/*** Image countainer ***/
+
+div#container,
+div#login-container {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(99,99,99,0.4);
+    z-index: 99;
+    text-align: center;
+}
+
+div#container img {
+    cursor: pointer;
+    max-width: 1000px;
+    margin: 40px 20px;
+    /*border: 1px solid #ddd;*/
+}
+
+/*** Inputs ***/
+
+input, select, textarea {
+    width: 97%;
+    height: 21px;
+    color: black;
+    font: 11px 'Lucida Grande', Verdana, Helvetica, sans-serif;
+    margin: 2px auto;
+    padding: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+input:hover, select:hover, textarea:hover {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    height: 80%;
+    resize: none;
+}
+
+input[type="submit"] {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    color: #555555;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    width: auto;
+    height: 27px;
+    line-height: 26px;
+    padding: 0 10px;
+    text-align: center;
+    vertical-align: baseline;
+    background-color: #F5F5F5;
+    background: -moz-linear-gradient(top , #F5F5F5, #F1F1F1) repeat scroll 0 0 transparent;
+    background: -o-linear-gradient(top , #F5F5F5, #F1F1F1) repeat scroll 0 0 transparent;
+    background: -ms-linear-gradient(top , #F5F5F5, #F1F1F1) repeat scroll 0 0 transparent;
+    background: -webkit-linear-gradient(top , #F5F5F5, #F1F1F1) repeat scroll 0 0 transparent;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#F5F5F5),to(#F1F1F1));
+}
+
+input[type="submit"]:hover {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #333333;
+    text-decoration: none;
+    background-color: #F8F8F8;
+    background: -moz-linear-gradient(top , #F8F8F8, #F1F1F1) repeat scroll 0 0 transparent;
+    background: -o-linear-gradient(top , #F8F8F8, #F1F1F1) repeat scroll 0 0 transparent;
+    background: -ms-linear-gradient(top , #F8F8F8, #F1F1F1) repeat scroll 0 0 transparent;
+    background: -webkit-linear-gradient(top , #F8F8F8, #F1F1F1) repeat scroll 0 0 transparent;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#F8F8F8),to(#F1F1F1));
+}
+
+input.login {
+	width: 160px;
+	height: 22px;
+	margin: 5px auto;
+	text-align: center;
+}
+
+/*** General ***/
+
+th, td {
+	padding: 3px;
+}
+
+tr {
+	vertical-align: top;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+em {
+	color: #d00;
+}
+
+h2 {
+	font-family: Century Gothic, sans-serif;
+	font-weight: normal;
+	font-size: 22px;
+	text-transform: capitalize;
+	margin: 0px;
+}
+
+a:link, a:visited {
+	color: #1f2f4f;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #1f3f6f;
+}
+
+a.close:link, a.close:visited,
+span.close {
+    cursor: pointer;
+	color: #ccc;
+	text-decoration: none;
+}
+
+a.close:hover, a.close:active,
+span.close:hover {
+	color: #e99;
+}
+
+.nav, .navg {
+	color: #666;
+	text-decoration: none;
+    cursor: pointer;
+}
+
+.nav:hover, .navg:hover {
+	text-shadow: 0 0 4px #bbc;
+}
+
+span.active {
+    text-shadow: 0 0 4px #bbc;
+}
+
+span.refresh {
+    float: right;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.clear {
+    clear: both;
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.float-l {
+	float: left;
+}
+
+.float-r {
+	float: right;
+}
+
+.mono {
+    font-size: 13px;
+	font-family: monospace;
+}
+
+.small {
+    font-size: 9px;
+}
